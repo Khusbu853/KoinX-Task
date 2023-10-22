@@ -1,0 +1,747 @@
+/* body*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html {
+    font-family: Inter,sans-serif;
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth
+}
+
+
+
+
+
+
+/* footer */
+.footer-main {
+    width: 100%;
+    overflow: hidden
+}
+
+.footer-social-media {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    grid-gap: 1.5rem;
+    margin-top: 1.5rem;
+    width: 100%;
+    grid-column-gap: 10rem;
+    column-gap: 10rem
+}
+
+.Footer_SocialMediaIconsMobile__wZeD_ {
+    display: flex;
+    flex-direction: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 1.5rem
+}
+
+.Footer_SocialMediaTextMobile__i6r3Q {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #fff;
+    opacity: .65;
+    margin-left: 1rem
+}
+
+.footer-inner {
+    padding: 5.4rem max(4rem,calc((100% - 114rem) / 2))
+}
+
+.footer-inner,.footer-top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-mid {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    grid-gap: 4rem;
+    margin-top: 3.35rem;
+    margin-bottom: 3.2rem;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+    border-top: .1rem;
+    border-bottom: .1rem;
+    border-style: solid;
+    border-color: hsla(0,0%,100%,.65);
+    border-left: none;
+    border-right: none
+}
+
+.footer-mid-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 1.9rem
+}
+
+.footer-mid-rows-heading {
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+    color: #fff;
+    font-weight: 700;
+    white-space: nowrap
+}
+
+.Footer_FooterMidSectionItemLink2___EPnJ,.footer-mid-rows-points {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    font-weight: 400;
+    opacity: .65;
+    cursor: pointer
+}
+
+.Footer_CareersLink__LKU5l {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    flex-direction: row
+}
+
+.Footer_IsoImage__rYQWi {
+    width: 11rem;
+    height: 11rem;
+    margin-top: -15rem
+}
+
+.footer-copyrights {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    color: #fff;
+    opacity: .65;
+    margin-top: 1rem
+}
+
+.Footer_HiringButton__9pOby {
+    padding: .3rem .996875rem .41875rem .8rem;
+    background: rgba(41,151,249,.5);
+    border-radius: .2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    white-space: nowrap
+}
+
+@media only screen and (min-width: 1024px) {
+    .footer-mid {
+        grid-template-columns:repeat(5,minmax(0,1fr));
+        grid-gap: 7.15rem
+    }
+
+    .footer-mid-rows-points {
+        white-space: nowrap
+    }
+
+    .Footer_FooterMidSectionItemLink2___EPnJ,.footer-mid-rows-points {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+        font-weight: 400;
+        opacity: .65;
+        cursor: pointer
+    }
+
+    .footer-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%
+    }
+
+    .footer-social-media {
+        display: flex;
+        gap: 2rem
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1024px) {
+    .footer-mid {
+        grid-template-columns:repeat(5,minmax(0,1fr));
+        grid-gap: 7.15rem
+    }
+
+    .footer-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%
+    }
+
+    .footer-social-media {
+        display: flex;
+        gap: 2rem
+    }
+}
+
+@media only screen and (min-width: 650px) and (max-width:900px) {
+    .footer-mid {
+        grid-template-columns:repeat(3,minmax(0,1fr));
+        grid-gap: 7.15rem
+    }
+
+    .footer-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%
+    }
+
+    .footer-social-media {
+        display: flex;
+        gap: 2rem
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width:650px) {
+    .footer-top {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%
+    }
+
+    .footer-social-media {
+        display: flex;
+        gap: 2rem
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .Footer_IsoImage__rYQWi {
+        margin-top:0
+    }
+
+    .footer-copyrights {
+        font-size: 1.4rem
+    }
+}
+
+
+
+
+
+
+/* tax-calculator */
+.tax-calculator-main {
+    background-color: #fff;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    border-radius: 1rem
+}
+
+.TaxCalculator_Title__2g_Bn {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center
+}
+
+.TaxCalculator_Button__1nbR7 {
+    border: none;
+    color: #0052fe;
+    padding: auto 0;
+    margin-left: -2rem
+}
+
+.tax-calculator-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    flex-wrap: wrap
+}
+
+.tax-calculator-country-div,.tax-calculator-year-div {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1 1
+}
+
+.TaxCalculator_Info__sjz6q {
+    display: flex;
+    align-items: center;
+    gap: .7rem
+}
+
+.TaxCalculator_Button__1nbR7,.TaxCalculator_CountryText__V6ZG9,.tax-calculator-year-title,.TaxCalculator_Info__sjz6q,.tax-calculator-bottom-titles {
+    font-size: 1.5rem;
+    font-weight: 400
+}
+
+.tax-calculator-bottom-titles {
+    margin-bottom: 1rem
+}
+
+.tax-calculator-year-title {
+    width: 15rem
+}
+
+.tax-calculator-bottom-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 4rem;
+    gap: 4rem
+}
+
+.tax-calculator-tax-detail {
+    padding: 2rem;
+    background: #edf2ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    overflow-x: auto
+}
+
+.tax-calculator-tax-detail::-webkit-scrollbar {
+    width: 5px;
+    height: 5px
+}
+
+.tax-calculator-tax-detail::-webkit-scrollbar-thumb {
+    background-color: #e1e1e1;
+    border-radius: 2rem
+}
+
+.tax-calculator-tax-price {
+    font-size: 2.4rem;
+    font-weight: 700
+}
+
+.Ttax-calculator-divider {
+    height: 1px;
+    background-color: #dee1e6
+}
+
+.TaxCalculator_Cta__xFZmu {
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 500
+}
+
+.TaxCalculator_Cta__xFZmu a,.TaxCalculator_Cta__xFZmu span {
+    margin-right: 4px;
+    line-height: 2rem
+}
+
+.TaxCalculator_Cta__xFZmu a {
+    color: #0052fe;
+    text-decoration: none;
+    display: flex;
+    align-items: center
+}
+
+@media only screen and (max-width: 1090px) {
+    .tax-calculator-main {
+        width:100%
+    }
+}
+
+@media only screen and (max-width: 775px) {
+    .tax-calculator-country-div,.tax-calculator-year-div {
+        flex-direction:column;
+        align-items: flex-start
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .TaxCalculator_Title__2g_Bn {
+        font-size:2.8rem
+    }
+
+    .TaxCalculator_CountryText__V6ZG9,.tax-calculator-year-title,.tax-calculator-bottom-titles {
+        font-size: 1.8rem
+    }
+
+    .tax-calculator-bottom-div {
+        grid-template-columns: 1fr
+    }
+
+    .TaxCalculator_Cta__xFZmu {
+        flex-direction: column;
+        gap: 1rem
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .tax-calculator-main {
+        padding:4rem 0
+    }
+
+    .tax-calculator-top {
+        flex-direction: column;
+        align-items: flex-start
+    }
+
+    .tax-calculator-country-div,.tax-calculator-year-div {
+        width: 100%
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .tax-calculator-main {
+        padding:1.5rem
+    }
+}
+
+.main-div {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 2rem;
+    gap: 2rem;
+    background: #f9f9f9;
+    margin: 0 auto;
+    padding: 2rem
+}
+
+@media only screen and (max-width: 1090px) {
+    .main-div {
+        display:flex;
+        flex-direction: column;
+        align-items: center
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .main-div {
+        background-color:#fff;
+    }
+}
+
+
+/* Track portfolio */
+
+.track-portfolio {
+    background-color: #fff;
+    width: 100%;
+    height: 62rem;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.track-portfolio-inner {
+    background-color: #0052fe;
+    width: 95%;
+    max-width: 116rem;
+    display: flex;
+    align-items: center;
+    gap: 11rem;
+    border-radius: 1.6rem;
+    min-height: 34.7rem;
+    overflow: hidden;
+    padding-right: 2rem
+}
+
+.track-portfolio-inner img {
+    align-self: flex-end
+}
+
+.track-portfolio-inner div h2 {
+    color: #fff;
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin-bottom: 1.6rem
+}
+
+.track-portfolio-inner div p {
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    font-weight: 400;
+    max-width: 63rem;
+    margin-bottom: 3rem
+}
+
+@media only screen and (max-width: 1145px) {
+    .track-portfolio-inner div h2 {
+        font-size:3rem
+    }
+
+    .track-portfolio-inner div p {
+        font-size: 1.6rem
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .track-portfolio {
+        height:-moz-fit-content;
+        height: fit-content;
+        background-color: #fff;
+        margin-bottom: 4rem
+    }
+
+    .track-portfolio-inner {
+        flex-direction: column;
+        text-align: center;
+        gap: 4rem;
+        padding: 4rem 2rem
+    }
+
+    .track-portfolio-inner img {
+        align-self: center;
+        width: 95%;
+        max-width: 30rem
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .track-portfolio-inner div h2 {
+        font-size:2.4rem
+    }
+
+    .track-portfolio-inner div p {
+        font-size: 1.4rem;
+        line-height: 2.4rem
+    }
+}
+
+
+
+/* faq section */
+
+.faq-main {
+    background: #fff;
+    padding: 3rem 8rem 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    border-radius: 1rem
+}
+
+.DescriptionSection_InnerWrapper__zL_3V,.faq-main-div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+
+.DescriptionSection_Title__yfXzZ {
+    font-size: 1.8rem;
+    font-weight: 700
+}
+
+.faq-que {
+    font-size: 2.2rem;
+    font-weight: 800
+}
+
+.faq-ans-bold,.DescriptionSection_Info__eX7UY,.faq-ans,.faq-subpoint-div {
+    font-size: 1.6rem;
+    line-height: 3rem
+}
+
+.DescriptionSection_Button__EXKFQ {
+    border: none;
+    color: #0052fe;
+    text-decoration: underline;
+    margin-left: -2rem
+}
+
+.faq-ans-bold {
+    font-weight: 700
+}
+
+.DescriptionSection_SubPoint__3ahZE {
+    padding-bottom: 1rem
+}
+
+.faq-point-div {
+    padding-left: 1rem
+}
+
+.DescriptionSection_Info__eX7UY {
+    display: flex;
+    align-items: center;
+    gap: .7rem
+}
+
+.faq-span {
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 500
+}
+
+.faq-span a,.faq-span span {
+    margin-right: 4px;
+    line-height: 2rem
+}
+
+.faq-span a {
+    color: #0052fe;
+    text-decoration: none;
+    display: flex;
+    align-items: center
+}
+
+@media only screen and (max-width: 690px) {
+    .faq-main {
+        padding:3rem
+    }
+
+    .faq-span {
+        flex-direction: column;
+        gap: 1rem
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .faq-main {
+        padding:1.5rem
+    }
+
+    .faq-que {
+        font-size: 2rem
+    }
+}
+
+
+/* Get Started */
+.get-started {
+    width: 35rem;
+    background: #0052fe;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    align-items: center;
+    height: -moz-fit-content;
+    height: fit-content;
+    position: -webkit-sticky;
+    position: sticky
+}
+
+.get-started-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.get-started-subtitle {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 1rem
+}
+
+.get-started-img {
+    width: 200px
+}
+
+.get-started-btn {
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    border: #fff;
+    margin-top: .5rem;
+    cursor: pointer;
+    background-color: #fff
+}
+
+@media only screen and (max-width: 1090px) {
+    .get-started {
+        width:100%;
+        display: flex;
+        gap: 2rem
+    }
+
+    .get-started-subtitle {
+        padding: 0 4rem;
+        gap: 2rem
+    }
+
+    .get-started-btn {
+        padding: 1rem 5rem
+    }
+}
+
+@media only screen and (max-width: 3500px) {
+    .get-started-subtitle {
+        padding:0 2rem
+    }
+}
+
+@media only screen and (min-width: 1091px) {
+    .get-started {
+        position:-webkit-sticky;
+        position: sticky;
+        top: 10rem
+    }
+}
+
+.Button_Button__tyW3l {
+    border: 1px solid #768396;
+    border-radius: .5rem;
+    padding: 1rem 2rem;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.6rem;
+    justify-content: center;
+    color: #222;
+    gap: 1rem;
+    background-color: transparent
+}
+
+.Button_ButtonIcon__mr2oZ {
+    height: 2rem
+}
+
+.Button_PrimaryBtn__puJlv {
+    background-color: #0052fe;
+    color: #fff;
+}
+
+
+
+table {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    margin-left: 30px
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+
+
+
+
+.footer-mid{
+    text-align: left;
+}

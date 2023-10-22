@@ -495,33 +495,30 @@ const Faq = () => {
 
               <table>
                 <tr>
-                  <th>Column 1 Header</th>
-                  <th>Column 2 Header</th>
+                  <th>Income</th>
+                  <th>Tax Rate</th>
                 </tr>
                 <tr>
-                  <td>Row 1, Column 1</td>
-                  <td>Row 1, Column 2</td>
+                  <td>$0 - $18,200</td>
+                  <td>0%</td>
                 </tr>
                 <tr>
-                  <td>Row 2, Column 1</td>
-                  <td>Row 2, Column 2</td>
+                  <td>$18,201 - $45,000</td>
+                  <td>Nil + 19% of excess over $18,200</td>
                 </tr>
                 <tr>
-                  <td>Row 3, Column 1</td>
-                  <td>Row 3, Column 2</td>
+                  <td>$45,000 - $120,000</td>
+                  <td>$5,092 + 32.5% of excess over $45,000</td>
                 </tr>
                 <tr>
-                  <td>Row 4, Column 1</td>
-                  <td>Row 4, Column 2</td>
+                  <td>$120,000 - $180,000</td>
+                  <td>$29,467 + 37% of excess over $120,000</td>
                 </tr>
                 <tr>
-                  <td>Row 5, Column 1</td>
-                  <td>Row 5, Column 2</td>
+                  <td>$180,001+</td>
+                  <td>$51,667 + 45% of excess over $180,000</td>
                 </tr>
-                <tr>
-                  <td>Row 6, Column 1</td>
-                  <td>Row 6, Column 2</td>
-                </tr>
+                
               </table>
             </div>
             <div>
